@@ -71,8 +71,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\SampleController.cs" />
     <Compile Include="Models\ControllerRenderingModel.cs" />
+    <Compile Include="Models\FormModel.cs" />
     <Compile Include="Models\ModelViewRenderingModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -81,7 +83,9 @@
     <None Include="lib\Sitecore.Mvc.dll" />
     <Content Include="lib\System.Web.Mvc.dll" />
     <Content Include="Readme.txt" />
+    <Content Include="Scripts\forms.js" />
     <Content Include="Views\Sample\ControllerRendering.cshtml" />
+    <Content Include="Views\Form\Form.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\MvcLayout.cshtml" />

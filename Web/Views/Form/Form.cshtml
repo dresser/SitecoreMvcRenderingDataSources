@@ -1,0 +1,14 @@
+﻿@model Web.Models.FormModel
+<div id="subscription-form" data-rendering-name="Form">
+    <h2>This is a simple form</h2>
+    @using (Html.BeginForm("FormSubmit", "Form"))
+    {
+        <p>
+            Firstname: @Html.EditorFor(m=>m.FirstName)
+        </p>
+        <p>
+            Email: @Html.EditorFor(m=>m.Email)
+        </p>
+        <input type="submit" value="Submit"/>
+    }
+</div>
