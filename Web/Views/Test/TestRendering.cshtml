@@ -1,0 +1,20 @@
+﻿@model Web.Models.TestModel
+<div>
+    <p>@Model.Text</p>
+    <table>
+        <tbody>
+            <tr>
+                <td>API Property</td>
+                <td><code>@Model.DataSourceProperty</code></td>
+            </tr>
+            <tr>
+                <td>Rendered Item</td>
+                <td><code>@Model.Path</code></td>
+            </tr>
+            <tr>
+                <td>Datasource Value</td>
+                <td><code>@Model.CurrentRenderingDataSource</code></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

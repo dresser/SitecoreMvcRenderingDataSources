@@ -89,9 +89,7 @@
     <Content Include="Views\Sample\ControllerRendering.cshtml" />
     <Content Include="Views\Form\Form.cshtml" />
     <Content Include="Views\Test\Container.cshtml" />
-    <Content Include="Views\Test\ContextItemRendering.cshtml" />
-    <Content Include="Views\Test\PageContextRendering.cshtml" />
-    <Content Include="Views\Test\RenderingItemRendering.cshtml" />
+    <Content Include="Views\Test\TestRendering.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\MvcLayout.cshtml" />

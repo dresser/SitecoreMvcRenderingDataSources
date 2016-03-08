@@ -310,7 +310,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 304003f6-d97d-47de-bb49-c2b20cbfa728
+revision: 067fbec0-7e23-4134-a5e2-7940a3bb2459
 
 ----field----
 field: {75577384-3C97-45DA-A847-81B00500E250}
@@ -323,10 +323,17 @@ Sitecore Experience Platform
 field: {A60ACD61-A6DB-4182-8329-C957982CEC74}
 name: Text
 key: text
-content-length: 789
+content-length: 790
 
 <p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to a completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
 <p>For further information, please go to the <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
+----field----
+field: {DA87198F-6DB7-499B-9E1E-DFD9E9743380}
+name: Image
+key: image
+content-length: 164
+
+<image mediapath="" alt="Facebook" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{6AA5AA9F-071A-4808-91AC-709FAAFFB310}" />
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -389,14 +396,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-304003f6-d97d-47de-bb49-c2b20cbfa728
+067fbec0-7e23-4134-a5e2-7940a3bb2459
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20141110T100309:635512105892521099Z
+20160106T101733Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
