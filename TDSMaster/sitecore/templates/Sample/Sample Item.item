@@ -29,7 +29,7 @@ name: __Icon
 key: __icon
 content-length: 31
 
-Applications/16x16/document.png
+Applications/32x32/document.png
 ----field----
 field: {B03569B1-1534-43F2-8C83-BD064B7D782C}
 name: __Renderers
@@ -155,7 +155,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 46b9028c-b428-4ede-a25e-dc1dbe416bb7
+revision: 32de6ef4-0733-4a0b-8e94-7a698314d104
 
 ----field----
 field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
@@ -191,14 +191,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-46b9028c-b428-4ede-a25e-dc1dbe416bb7
+32de6ef4-0733-4a0b-8e94-7a698314d104
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 16
 
-20090527T092354:633790130340205625
+20160106T101533Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -73,9 +73,11 @@
   <ItemGroup>
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\SampleController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Models\ControllerRenderingModel.cs" />
     <Compile Include="Models\FormModel.cs" />
     <Compile Include="Models\ModelViewRenderingModel.cs" />
+    <Compile Include="Models\TestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +88,10 @@
     <Content Include="Scripts\forms.js" />
     <Content Include="Views\Sample\ControllerRendering.cshtml" />
     <Content Include="Views\Form\Form.cshtml" />
+    <Content Include="Views\Test\Container.cshtml" />
+    <Content Include="Views\Test\ContextItemRendering.cshtml" />
+    <Content Include="Views\Test\PageContextRendering.cshtml" />
+    <Content Include="Views\Test\RenderingItemRendering.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\MvcLayout.cshtml" />
@@ -98,6 +104,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Sample\ModelViewRendering.cshtml" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
